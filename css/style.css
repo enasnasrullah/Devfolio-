@@ -1,0 +1,426 @@
+*
+{
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" ;
+}
+
+.navbar-brand
+{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+}
+.hero
+{
+    background-image: url(../images/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.bg
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+.brdr-wh
+{
+    color: #fff;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.brdr-wh::after
+{
+    content: '';
+    height: 2px;
+    width: 70%;
+    position: absolute;
+   top: 35px;
+   left: 8px;
+    background-color: #fff;
+}
+.navbar-dark .navbar-nav .brdr-wh
+{
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+ 
+    
+
+
+}
+.navbar-dark .navbar-nav .brdr-wh:hover
+{
+    color: #fff;
+
+
+    
+}
+.br-h
+{
+    position: relative;
+}
+ .br-h::after
+{
+    content: '';
+    background-color: #fff;
+    width:0%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+   top: 30px;
+   transition: all 1s ;
+}
+.br-h:hover::after
+{
+    width: 100%;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link:link
+{
+    color: white;
+}
+.services,.sec-gray
+
+{
+    background-color:#f5f5f5  ;
+}
+
+.about-info span
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+.size
+{
+    font-size: 72px;
+    font-weight: 600;
+}
+.size1
+{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.box
+{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+    background-color: white;
+  
+   
+}
+.about-tittle
+{
+    font-size: 32px;
+    position: relative;
+}
+.about-tittle::after
+{
+    content: '';
+    width: 23%;
+    background-color:#0078ff ;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.skill p
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+.tittle-box h3
+{
+    font-size: 48px;
+    font-weight: bold;
+}
+.tittle-box p
+{
+    color: #4e4e4e;
+}
+.line 
+{
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: auto;
+}
+.service-box
+{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.service-box:hover .icon
+
+{
+color:white;
+background-color:#0078ff ;
+box-shadow:   0 0 0 10px #cde1f8;
+
+
+}
+.icon
+{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    font-size: 38px;
+    padding: 20px;
+    
+    border: 10px solid #0078ff;
+    border-radius: 50%;
+ 
+    
+}
+.service-content h2
+{
+    font-size: 24px;
+    padding-bottom: 10px;
+
+}
+.service-content p
+{
+    color: #4e4e4e;
+}
+.counter
+{
+    background-image: url(../images/counters-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    
+  
+    
+}
+
+.bg-blue
+{
+    background-color: #0078ff;
+    position:absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+   
+}
+.counter-icon
+{
+    width: 80px;
+    height: 80px;
+    color: white;
+    border: 8px solid white;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 32px;
+}
+.counter-cap p
+{
+font-size: 32px;
+
+}
+.h5-s
+{
+    font-size: 18px;
+}
+.p-b
+{
+    color: #0078ff;
+}
+.p-s
+{
+    font-size: 14px;
+}
+.icons
+{
+    width: 40px;
+    height: 40px;
+    border: 3px solid #0078ff;
+    border-radius: 50%;
+    ;
+}
+
+.big-box:hover .sk
+{
+    transform: scale(1.5);
+    
+}
+.sk
+{
+transition: all 1s;
+}
+
+.testmonial
+{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center center ;
+}
+.carousel-item img
+{
+    width: 130px;
+    height: 130px;
+}
+.text-cap1
+
+{
+    font-weight: 600;
+    font-size: 23px;
+    color: white;
+}
+.text-cap2
+{
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+.carousel-indicators li 
+{
+ border-radius: 50%;
+ height: 15px;
+ width: 15px;
+  
+  
+
+}
+.card-travel {
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: auto;
+    position: absolute;
+    top: -35px;
+    left:110px;
+  background-color: #0078ff;
+}
+.card-tittle a
+{
+    color: #1e1e1e;
+    font-size: 21px;
+    text-decoration: none;
+
+}
+.card-tittle a:hover
+{
+    color: blue;
+}
+.morgan  img
+{
+    width: 32px;
+    height: 32px;
+}
+.morgan span
+{
+   text-decoration: none;
+    color: #1e1e1e;
+}
+.morgan span:hover
+{
+  
+    color: blue;
+
+}
+.blog
+{
+    background-color: #f5f5f5;
+}
+.card-blog
+{
+    background-color: white;
+}
+.card-travel2 {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    margin: auto;
+    position: absolute;
+    top: -35px;
+    left:110px;
+  background-color: #0078ff;
+ 
+
+}
+.contact
+{
+    position: relative;
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.blue-brdr
+{
+    width: 100px;
+    height: 3px;
+    background-color: #0078ff;
+}
+
+.bt-sn
+{
+
+    background-color: #0d6efd;
+    padding: 8px 20px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid #0d6efd ;
+    transition: all 1s ;
+}
+.bt-sn:hover{
+    border: 1px solid #cde1f8 ;
+    box-shadow: 0 0 0 4px #cde1f8;
+}
+
+
+.i-size
+{
+    color: #0078ff;
+    font-weight: 100;
+}
+.i-brdr
+{
+    width: 45px;
+    height: 45px;
+    border: 3px solid #0d6efd ;
+    text-align: center;
+    border-radius: 50%;
+    
+
+}
+.i-brdr i
+{
+    color: black;
+    font-size: 19px;
+}
+footer
+{
+    background-color: #0062d3;
+    color: white;
+    padding: 48px;
+}
+.devf
+{
+    font-weight: 600;
+}
+.a-boo
+{
+    color: white;
+}
+.a-boo:hover
+{
+    color: white;
+    text-decoration: none;
+}
